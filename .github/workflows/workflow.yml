@@ -1,13 +1,13 @@
 name: CI workflow
 on:  
   push: 
-    braches: [ "main" ]
+    branches: [ "main" ]
 
   pull_request:
-    braches: [ "main" ]
+    branches: [ "main" ]
 
 jobs: 
   build:
     runs-on: ubuntu-latest
-      container: python:3.9-slim
+    container: python:3.9-slim
  
